@@ -49,7 +49,7 @@ namespace AssetUsageDetectorNamespace
 
 			public bool lazySceneSearch = true;
 #if ASSET_USAGE_ADDRESSABLES
-			public bool addressablesSupport = false;
+			public bool addressablesSupport = true;
 #endif
 			public bool calculateUnusedObjects = false;
 			public bool hideDuplicateRows = true;
